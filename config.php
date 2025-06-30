@@ -1,8 +1,8 @@
 <?php
 // Leer variables de entorno
-$host    = getenv('DATABASE_SERVICE_HOST') ?: 'localhost';
-$port    = getenv('DATABASE_SERVICE_PORT') ?: '3306';
-$db   = getenv('MYSQL_DATABASE');
+$host = getenv('DATABASE_SERVICE_HOST') ?: 'localhost';
+$port = getenv('DATABASE_SERVICE_PORT') ?: '3306';
+$db = getenv('MYSQL_DATABASE');
 $user = getenv('MYSQL_USER');
 $pass = getenv('MYSQL_PASSWORD');
 $charset = 'utf8mb4';
